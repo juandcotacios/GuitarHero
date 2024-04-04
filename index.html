@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/main.css" />
+	<title>Guitar Hero</title>
+</head>
+
+<body class="bgpractica">
+	<section>
+		<div class="container juego">
+			<div class="juego-guitar">
+				<div class="notas">
+					<div class="nota n-green hidden"></div>
+					<div class="nota n-red hidden"></div>
+					<div class="nota n-yellow hidden"></div>
+					<div class="nota n-blue hidden"></div>
+					<div class="nota n-orange hidden"></div>
+				</div>
+				<div class="juego-mastil">
+
+					<div id="fgreen" class="flare_efects fgreen hidden"></div>
+					<div id="fred" class="flare_efects fred hidden"></div>
+					<div id="fyellow" class="flare_efects fyellow hidden"></div>
+					<div id="fblue" class="flare_efects fblue hidden"></div>
+					<div id="forange" class="flare_efects forange hidden"></div>
+
+					<div class="texture animated">
+						<div class="liners-mastil"></div>
+						<div class="matil-edges"></div>
+						<div class="hit-buttom-space">
+							<div class="hitter hit-button-green"></div>
+							<div class="hitter hit-button-red"></div>
+							<div class="hitter hit-button-yellow"></div>
+							<div class="hitter hit-button-blue"></div>
+							<div class="hitter hit-button-orange"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="js/canciones.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/effects.js"></script>
+	<script src="js/collider.js"></script>
+	<script src="js/keymaps.js"></script>
+</body>
+<button id="startButton" class="start-button">▶</button>
+<div id="imagenContainer">
+	<img id="miImagen" src="../GuitarHero/sources/LogoGuitar.png">
+</div>
+
+</html>
