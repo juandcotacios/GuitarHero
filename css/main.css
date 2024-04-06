@@ -27,7 +27,6 @@ div.container{
 }
 
 .juego .juego-guitar{
-	/* background-color: grey; */
 	position: relative;
 	width: 59%;
 	height: 100%;
@@ -77,8 +76,7 @@ div.juego div{
 }
 
 .juego-mastil>div.texture{
-	transform: rotateX(40deg);
-    /* background: brown; */
+	transform: rotateX(40deg);  
     background-image: url('../sources/GH3_PC-Axel.png');
     background-size: 315px 504px;
     border:1px solid black;
@@ -118,8 +116,6 @@ div.texture.animated{
 	background-size: 316px;
 }
 
-
-/* verde */
 .hitter.hit-button-green{
 	background-position-x: 0px;
 	background-position-y: 0px;
@@ -136,8 +132,6 @@ div.texture.animated{
 }
 
 
-/* rojo */
-
 .hitter.hit-button-red{
 	background-position-x: -56px;
 	background-position-y: 0px;
@@ -153,7 +147,6 @@ div.texture.animated{
 	background-position-y: -68px;
 }
 
-/* amarillo */
 .hitter.hit-button-yellow{
 	background-position-x: -112px;
 	background-position-y: 0px;
@@ -169,8 +162,6 @@ div.texture.animated{
 	background-position-y: -68px;
 }
 
-/* azul */
-
 .hitter.hit-button-blue{
 	background-position-x: -167px;
 	background-position-y: 0px;
@@ -185,8 +176,6 @@ div.texture.animated{
 	background-position-x: -167px;
 	background-position-y: -68px;
 }
-
-/* naranja */
 
 .hitter.hit-button-orange{
 	background-position-x: -224px;
@@ -231,7 +220,6 @@ div.texture.animated{
 	animation-name: ngreen;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-	/* animation-iteration-count: infinite; */
 }
 
 .n-red{
@@ -246,7 +234,6 @@ div.texture.animated{
 	animation-name: nred;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-    /* animation-iteration-count: infinite; */
 }
 
 .n-yellow{
@@ -261,7 +248,6 @@ div.texture.animated{
 	animation-name: nyellow;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-    /* animation-iteration-count: infinite; */
 }
 
 .n-blue{
@@ -276,7 +262,6 @@ div.texture.animated{
 	animation-name: nblue;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-    /* animation-iteration-count: infinite; */
 }
 
 .n-orange{
@@ -291,7 +276,6 @@ div.texture.animated{
 	animation-name: norange;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-	/* animation-fill-mode: both; */
 	animation-iteration-count: infinite;
 }
 
@@ -489,6 +473,3 @@ div.texture.animated{
     z-index: 9999;
 }
 
-.start-button:focus {
-    outline: none;
-}
